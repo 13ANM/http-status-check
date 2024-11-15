@@ -22,4 +22,4 @@ jobs:
       - name: Run HTTP Status Check
         uses: ./
         with:
-          url: 'https://example.com'
+          url: 'https://somefailingurlxyz.com'
