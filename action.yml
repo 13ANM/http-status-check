@@ -1,0 +1,13 @@
+name: 'HTTP Status Check'
+description: 'Checks the HTTP status of a given URL.'
+author: 'Andrei Mocanu'
+inputs:
+  url:
+    description: 'The URL to be check.'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
+branding:
+  icon: 'globe'
+  color: 'blue'
